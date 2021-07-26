@@ -1,0 +1,59 @@
+html {
+    font-family: 'Open Sans', sans-serif;  
+}
+body {
+    background-color: gainsboro;
+}
+
+.navigation {
+    background-color: #272828;
+    display: flex;
+   justify-content: space-between;
+}
+
+.navigation .nav {
+    display:inline;      
+    display: flex;
+    margin-top: 8%;
+}
+/* **************for iphone is next line******* */
+
+@media only screen and (max-width: 600px) {
+
+    .navigation .nav {
+        font-size: smaller;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: left;
+        margin-left: 0;
+        padding: 8px;
+        max-width: 400px;   
+    }  
+}
+
+.navigation .nav li{
+    display: inline;
+}
+
+.navigation .nav li a {
+    color: gainsboro;
+}
+
+.navigation .nav li img {
+    height: 20px;
+    display: inline;
+}
+
+
+.navigation .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.navigation .right .user-name a {
+    color: #2985b4f5;
+}
+.navigation .right .user-name img {
+    height: 20px;
+}
