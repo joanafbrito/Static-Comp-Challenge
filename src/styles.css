@@ -94,14 +94,30 @@ main > h2 {
     background-image: url("images/img1.jpg");
     background-size: 100% 100%;
 }
-.shares-container .card-container .card-header > h2 {
-    padding: 0;
-    margin:0;
+.shares-container .card-container #backgroundImage2 {
+    background-image: url("images/img2.jpg");
+    background-size: 100% 100%;
 }
 
 .shares-container .card-container .card-header #shareIcon img {
     height: 20px;
     border-radius: 50%;
+}
+
+.shares-container .card-container .card-header > h2 {
+    padding: 0;
+    margin:0;
+    color:ghostwhite;
+    text-align: end;
+    margin-right: 10px;
+    padding-bottom: 63px;
+}
+
+.shares-container .card-container .card-header > h4 {
+    padding: 0;
+    margin:0;
+    color:ghostwhite;
+    text-align: end;
 }
 
 .shares-container .card-container .card-body {
