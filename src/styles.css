@@ -44,7 +44,6 @@ body {
     display: inline;
 }
 
-
 .navigation .right {
     display: flex;
     flex-direction: column;
@@ -56,4 +55,25 @@ body {
 }
 .navigation .right .user-name img {
     height: 20px;
+}
+main > h2 {
+    background-color: gold;
+    border: 2px blue;
+}
+.shares-container {
+    display: flex;
+    /* flex-direction: column; */
+}
+.shares-container .card-container {
+    border: 1px solid #aaa9a95e;
+    margin: 5px;
+    box-shadow: 0px 4px 6px 0px rgb(145 146 147 / 62%);
+}
+.shares-container .card-container .card-header #shareIcon img {
+    height: 20px;
+    border-radius: 50%;
+}
+.shares-container .card-container .card-body {
+    padding: 20px;
+
 }
