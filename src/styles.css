@@ -28,7 +28,7 @@ body {
         padding: 8px;
         max-width: 400px;   
     }  
-    
+
     .navigation .nav li a {
         /* color: #6b6b6b; */
         font-size: 10px;
@@ -38,7 +38,7 @@ body {
         height: 20px;
     }
 }
- ******************************************************
+ /* ****************************************************** */
 .navigation .nav li {
     display: inline;
     margin: 0px 20px;
@@ -65,6 +65,7 @@ body {
     justify-content: space-between;
     margin-top: 10px;
 }
+
 .navigation .right .user-name a {
     color: #2985b4f5;
 }
@@ -108,26 +109,32 @@ main > h2 {
     background-image: url("images/img2.jpg");
     background-size: 100% 100%;
 }
+
 .shares-container .card-container #backgroundImage3 {
     background-image: url("images/img3.jpg");
     background-size: 100% 100%;
 }
+
 .shares-container .card-container #backgroundImage4 {
     background-image: url("images/img4.jpg");
     background-size: 100% 100%;
 }
+
 .shares-container .card-container #backgroundImage5 {
     background-image: url("images/img5.jpg");
     background-size: 100% 100%;
 }
+
 .shares-container .card-container #backgroundImage6 {
     background-image: url("images/img6.jpg");
     background-size: 100% 100%;
 }
+
 .shares-container .card-container #backgroundImage7 {
     background-image: url("images/img7.jpg");
     background-size: 100% 100%;
 }
+
 .shares-container .card-container #backgroundImage8 {
     background-image: url("images/img8.jpg");
     background-size: 100% 100%;
@@ -204,14 +211,17 @@ main > h2 {
     padding: 1px;
 
 }
+
 .shares-container .card-container .card-body .link-box p {
     font-size: 13px;
     color: gray;
     padding: 0px 10px;
 }
+
 .shares-container .card-container .card-body h4 {
     margin-bottom: 3px;
 }
+
 .shares-container .card-container .card-body > h2 {
    margin: 0px;
    color: #27b4fd;
