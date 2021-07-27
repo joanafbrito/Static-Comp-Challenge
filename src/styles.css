@@ -28,6 +28,7 @@ body {
         padding: 8px;
         max-width: 400px;   
     }  
+    
     .navigation .nav li a {
         /* color: #6b6b6b; */
         font-size: 10px;
@@ -37,7 +38,7 @@ body {
         height: 20px;
     }
 }
-
+ ******************************************************
 .navigation .nav li {
     display: inline;
     margin: 0px 20px;
